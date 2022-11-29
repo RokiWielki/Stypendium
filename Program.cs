@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 
 namespace Stypendium
 {
@@ -7,7 +6,17 @@ namespace Stypendium
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Podaj ilość ocen : ");
+            int grades = int.Parse(Console.ReadLine());
+            Console.WriteLine("Podaj swoje oceny: ");
+            for (int i = 0; i < grades; i++)
+            {
+                i=
+            }
+        }
+        static void Avarage()
+        {
+
         }
     }
 }
